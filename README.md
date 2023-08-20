@@ -42,12 +42,24 @@ Total cost arround : XX $
 Add more if you want to have solder plate and ready to use box
 
 
-# Electrical plan
+# Electrical diagram
 
+Here I'm using the solar panel connected to the TP4056 in the input voltage.
+
+Battery will be connected between battery+ and battery- on the TP4056.
+
+To power the ESP32 I will use a voltage regulator system composed by  MCP1700-3302E + a 100nF capacitor + a 100µF capacitor to have exactly 3.3V output.
+
+Also using a voltage divider to get the voltage of the battery and repot it to GPIO35
+
+The HC-SR04+ will be connected to GPIO25 (for trigger) and GPIO26 (for echo).
+ 
 <img src="./images/elecschema.png" width="800">
 
 
 # Assembly
+
+Here is a view of the first prototype (all in a big electrician box) 
 
 ## Inside the box
 
