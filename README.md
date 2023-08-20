@@ -96,10 +96,21 @@ We have a long cable to join the HC-SR04+.
 
 # Home Assistant
 
+Now we will see how to integrate this in Home Assistant
+
+## Prevent deepsleep button
+
+Before going to the ESPHome code, we will first create a "helper" in Home Assistant, this helper will be a switch we can activate to prevent the ESP32 deepsleep mode.
+
+Go to Settings > Devices & Services > Helpers
+
+And add a new helper in input.boolean type and name it like "disable_deep_sleep" (it is the name I will use in the code further, adapt it with the name you choose).
+
+<img src="./images/hadeepsleepfakebutton.png" width="600">
 
 ## ESPHome code
 
-Find below the code used in Home Assistant for ESPHome code used on the ESP32 : 
+Find below the code used in Home Assistant for ESPHome code used on the ESP32, see the code comments to have more explanation : 
 
 ```yaml
 
@@ -214,9 +225,7 @@ switch:
 
 ```
 
-## Home Assistant integration
 
-### Prevent deepsleep button
 
 ### Lovelace card
 
