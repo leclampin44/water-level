@@ -79,7 +79,7 @@ To prevent this I have added an external antenna
 
 You can solder it directy by scratching a bit the integrated antenna like this : 
 
-<img src="./images/antennaextension.png" width="600">
+<img src="./images/antennaextension.jpg" width="600">
 
 And solder the antenna like this + using some glue to keep it in place : 
 
