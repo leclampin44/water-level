@@ -1,8 +1,8 @@
 # Water Level  - Solar Powered - ESP32 base
 
 This project is about a well's water level solar powered.
-The main point here is to have an autonomous system because of the external installation (and no power plug arround).
-
+The main point here is to have an autonomous off grid system due to the outdoor location.
+The battery capacity will be monitored and a deep sleep state is used to prevent the discharge.
 
 
 # Macro view
@@ -144,3 +144,10 @@ switch:
 
 ```
 
+# PCB creation
+
+JLCPcb
+
+# Case creation 
+
+** soon **
