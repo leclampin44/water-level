@@ -63,9 +63,19 @@ Here is a view of the first prototype (all in a big electrician box)
 
 ## Inside the box
 
+Not really clean, fixing all with some tape.
+
+The TP4056 is placed in a side of the box and protected with USB-C plastic protection. This let me the possibiltiy to charge the battery from outside the box without having to open it.
+
 <img src="./images/assembly1.png" width="800">
 
 ## Antenna 
+
+You may need to extend the range of the ESP32. 
+
+By default the range is already not so good, but inside a box and from a long distance of the Wifi access point... It can be complicated.
+
+To prevent this I have added an external antenna 
 
 <img src="./images/antennatipphoto.png" width="800">
 
