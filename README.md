@@ -12,7 +12,20 @@ This is a macro view of the project
 <img src="./images/macrodiagram.png" width="800">
 
 
+# List of materials
+
+1 x ESP32 Wroom : 
+1 x Solar panel 6V :
+1 x Li-On battery 18650 :
+1 x HC-SR04+ ("plus" is important to have 3.3V version) : 
+X x Resistors XX : 
+
+Total cost arround : 10$
+
+
 # Electrical schema
+
+
 
 
 
