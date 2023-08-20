@@ -77,9 +77,19 @@ By default the range is already not so good, but inside a box and from a long di
 
 To prevent this I have added an external antenna 
 
+You can solder it directy by scratching a bit the integrated antenna like this : 
+
+<img src="./images/antennaextension.png" width="600">
+
+And solder the antenna like this + using some glue to keep it in place : 
+
 <img src="./images/antennatipphoto.png" width="800">
 
 ## Outside the box
+
+This first version is assembled like this.
+
+We have a long cable to join the HC-SR04+.
 
 <img src="./images/assembly2.png" width="800">
 
