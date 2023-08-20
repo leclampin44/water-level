@@ -67,7 +67,7 @@ Not really clean, fixing all with some tape.
 
 The TP4056 is placed in a side of the box and protected with USB-C plastic protection. This let me the possibiltiy to charge the battery from outside the box without having to open it.
 
-<img src="./images/assembly1.png" width="800">
+<img src="./images/assembly1.png" width="600">
 
 ## Antenna 
 
@@ -83,7 +83,7 @@ You can solder it directy by scratching a bit the integrated antenna like this :
 
 And solder the antenna like this + using some glue to keep it in place : 
 
-<img src="./images/antennatipphoto.png" width="800">
+<img src="./images/antennatipphoto.png" width="600">
 
 ## Outside the box
 
@@ -91,7 +91,7 @@ This first version is assembled like this.
 
 We have a long cable to join the HC-SR04+.
 
-<img src="./images/assembly2.png" width="800">
+<img src="./images/assembly2.png" width="600">
 
 
 # Home Assistant
