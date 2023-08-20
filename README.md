@@ -26,18 +26,28 @@ The HC-SCR04+ will be placed in the well iteself
 
 **Be informed that all links are affiliated, feel free to find it by your side if you don't want to use the following links**
 
+Main assembly :
+
 - 1 x Solar panel 6V :
 - 1 x TP4056 USB-C :
 - 1 x Li-On battery 18650 :
+- 1 x 18650 battery holder : 
 - 1 x MCP1700-3302E : 
 - 1 x 100nF capacitor :
 - 1 x 100µF capacitor :
 - 1 x 27k ohm resistor :
 - 1 x 100k ohm resistor : 
 - 1 x ESP32 Wroom : 
-- 1 x HC-SR04+ ("plus" is important to have 3.3V version) : 
+- 1 x HC-SR04+ ("plus" is important to have 3.3V version) :
+  *you can also use RCWL-1601 instead* :  
 
 Total cost arround : XX $
+
+Optional : 
+
+- 1 x electrician box :
+- 1 x long distance cable to connect the HC-SR04+ :
+- 1 x soldering board : 
 
 Add more if you want to have solder plate and ready to use box
 
