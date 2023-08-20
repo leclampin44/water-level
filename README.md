@@ -20,14 +20,19 @@ This is a macro view of the project
 
 ```yaml
 
+# Define the name of the ESP
 esphome:
-  name: water-level-2
-  friendly_name: water-level-2
+  name: water-level
+  friendly_name: water-level
+
+# Define the boot priority and script to execute at startup
   on_boot: 
     priority: -100
     then:
       - script.execute: deep_sleep_evaluation
 
+
+# Define the kind of board
 esp32:
   board: esp32dev
   framework:
@@ -50,7 +55,7 @@ wifi:
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
-    ssid: "Water-Level-2 Fallback Hotspot"
+    ssid: "water-level Fallback Hotspot"
     password: "yourpassword-generated-esphome"
 
 captive_portal:
