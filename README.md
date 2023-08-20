@@ -154,22 +154,22 @@ wifi:
 
 captive_portal:
 
-
+# Configure the sleep duration, the run duration will be configured a bit further, I set it to 30 min, you can change with what you want
 deep_sleep:
   id: deep_sleep_enabled
-  # run_duration: 10min
   sleep_duration: 30min
 
-
+# Configure sensor for status, will be used to determine if the deepsleep is really working
 binary_sensor:
   - platform: status
     name: "Water-Level Status"
-  
+
+# Configure the input boolean used to prevent ESP32 to go in deepsleep 
   - platform : homeassistant
     id: disable_deep_sleep
     entity_id: input_boolean.disable_deep_sleep
 
-
+# Scrit used to go in running mode for 10 min if input boolean is not pressed, if pressed, it goes to full run mode
 script: 
   - id: deep_sleep_evaluation
     mode: queued
@@ -186,6 +186,8 @@ script:
 
 
 sensor:
+
+#Configure the ultrasonic sensor HC-SR04+ to pin 25 and 26 + accuracy and interval
   - platform: ultrasonic
     trigger_pin: 25
     echo_pin: 26
@@ -194,14 +196,17 @@ sensor:
     accuracy_decimals: 4
     update_interval: 30s
 
+# Will indicate the uptime of the ESP32, usefull to know if the deepsleep is doing his job or not
   - platform: uptime
     name: "Water-Level Uptime"  
     update_interval: 60s
 
+# Got the wifi signal status in dB
   - platform: wifi_signal
     name: "Water-Level WiFi Signal"
     update_interval: 120s
 
+# Configure the GPIO used for adc (to get the voltage of the battery)
   - platform: adc
     pin: GPIO35
     id : "ADCV"
@@ -210,7 +215,8 @@ sensor:
     attenuation: 11db
     filters:
       - multiply: 1.292
-  
+
+# Estimate a % from the Voltage of the battery
   - platform: template
     name: "Water-Level Battery %"
     unit_of_measurement: '%'
@@ -218,16 +224,13 @@ sensor:
     lambda: |-
       return ((id(ADCV).state -3.30) /0.82 * 100.00);
 
+# A switch to force the ESP32 to restart
 switch:
   - platform: restart
     name: "Water-Level Restart"
 
 
 ```
-
-
-
-### Lovelace card
 
 
 
