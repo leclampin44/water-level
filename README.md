@@ -47,7 +47,8 @@ Optional :
 
 - 1 x electrician box :
 - 1 x long distance cable to connect the HC-SR04+ :
-- 1 x soldering board : 
+- 1 x soldering board :
+- 1 x external coaxial antenna : 
 
 Add more if you want to have solder plate and ready to use box
 
