@@ -30,10 +30,17 @@ Total cost arround : 10$
 
 # Assembly
 
+## Inside the box
+
+<img src="./images/assembly1.png" width="800">
 
 ## Antenna 
 
 <img src="./images/antennatipphoto.png" width="800">
+
+## Outside the box
+
+<img src="./images/assembly1.png" width="800">
 
 
 # ESPhome code
