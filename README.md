@@ -40,7 +40,7 @@ Total cost arround : 10$
 
 ## Outside the box
 
-<img src="./images/assembly1.png" width="800">
+<img src="./images/assembly2.png" width="800">
 
 
 # ESPhome code
