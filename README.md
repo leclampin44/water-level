@@ -26,7 +26,12 @@ Total cost arround : 10$
 # Electrical schema
 
 
+# Assembly
 
+
+## Antenna 
+
+<img src="./images/antennatipphoto.png" width="800">
 
 
 # ESPhome code
