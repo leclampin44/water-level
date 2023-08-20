@@ -24,7 +24,7 @@ The HC-SCR04+ will be placed in the well iteself
 
 # List of materials
 
-** all links are affiliated, feel free to find it by your side if you don't want to use the following links **
+**Be informed that all links are affiliated, feel free to find it by your side if you don't want to use the following links**
 
 - 1 x Solar panel 6V :
 - 1 x TP4056 USB-C :
