@@ -4,7 +4,7 @@ Water level used with ESP32 and solar panel +
 
 # Macro view
 
-![alt text](https://github.com/leclampin44/images/macrodiagram.png=true)
+<img src="./images/macrodiagram.png" width="800">
 
 # Electrical schema
 
