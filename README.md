@@ -233,11 +233,14 @@ switch:
 ```
 
 
+# Next steps
 
-# PCB creation
+## Add a Home Assistant view or capture
 
-JLCPcb
+## Add a lovelace card to represent the water level in the well
 
-# Case creation 
+## PCB creation with EasyEDA + add to the release page
 
-** soon **
+## Case creation 
+
+## update release page with 3D file, PCB + gerberfile + BOM and YAML
