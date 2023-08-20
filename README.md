@@ -71,7 +71,7 @@ The TP4056 is placed in a side of the box and protected with USB-C plastic prote
 
 ## Antenna 
 
-You may need to extend the range of the ESP32. 
+You may need to extend the wifi range of the ESP32. 
 
 By default the range is already not so good, but inside a box and from a long distance of the Wifi access point... It can be complicated.
 
@@ -94,7 +94,12 @@ We have a long cable to join the HC-SR04+.
 <img src="./images/assembly2.png" width="800">
 
 
-# ESPhome code
+# Home Assistant
+
+
+## ESPHome code
+
+Find below the code used in Home Assistant for ESPHome code used on the ESP32 : 
 
 ```yaml
 
@@ -208,6 +213,14 @@ switch:
 
 
 ```
+
+## Home Assistant integration
+
+### Prevent deepsleep button
+
+### Lovelace card
+
+
 
 # PCB creation
 
