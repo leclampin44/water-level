@@ -1,40 +1,81 @@
 # Water Level  - Solar Powered - ESP32 base
 
 This project is about a well's water level solar powered.
+
 The main point here is to have an autonomous off grid system due to the outdoor location.
-The battery capacity will be monitored and a deep sleep state is used to prevent the discharge.
+
+The battery capacity will be monitored and a deep sleep state is used to prevent the full discharge.
+
+I'm using an HC-SR04+ ultrasound system to get the distance between the water and the sensor.
 
 
 # Macro view
 
-This is a macro view of the project
+This is a macro view of the project.
 
-<img src="./images/macrodiagram.png" width="800">
+Solar panel will be placed on the roof. 
+
+The esp32, some electronics and battery will be placed just under the roof in a box.
+
+The HC-SCR04+ will be placed in the well iteself
+
+<img src="./images/macrodiagram.png" width="600">
 
 
 # List of materials
 
-- 1 x ESP32 Wroom : 
+** all links are affiliated, feel free to find it by your side if you don't want to use the following links **
+
 - 1 x Solar panel 6V :
+- 1 x TP4056 USB-C :
 - 1 x Li-On battery 18650 :
+- 1 x MCP1700-3302E : 
+- 1 x 100nF capacitor :
+- 1 x 100µF capacitor :
+- 1 x 27k ohm resistor :
+- 1 x 100k ohm resistor : 
+- 1 x ESP32 Wroom : 
 - 1 x HC-SR04+ ("plus" is important to have 3.3V version) : 
-- X x Resistors XX : 
 
-Total cost arround : 10$
+Total cost arround : XX $
 
-
-# Electrical schema
+Add more if you want to have solder plate and ready to use box
 
 
+# Electrical diagram
+
+Here I'm using the solar panel connected to the TP4056 in the input voltage.
+
+Battery will be connected between battery+ and battery- on the TP4056.
+
+To power the ESP32 I will use a voltage regulator system composed by  MCP1700-3302E + a 100nF capacitor + a 100µF capacitor to have exactly 3.3V output.
+
+Also using a voltage divider to get the voltage of the battery and repot it to GPIO35
+
+The HC-SR04+ will be connected to GPIO25 (for trigger) and GPIO26 (for echo).
+ 
 <img src="./images/elecschema.png" width="800">
+
 
 # Assembly
 
+Here is a view of the first prototype (all in a big electrician box) 
+
 ## Inside the box
+
+Not really clean, fixing all with some tape.
+
+The TP4056 is placed in a side of the box and protected with USB-C plastic protection. This let me the possibiltiy to charge the battery from outside the box without having to open it.
 
 <img src="./images/assembly1.png" width="800">
 
 ## Antenna 
+
+You may need to extend the range of the ESP32. 
+
+By default the range is already not so good, but inside a box and from a long distance of the Wifi access point... It can be complicated.
+
+To prevent this I have added an external antenna 
 
 <img src="./images/antennatipphoto.png" width="800">
 
