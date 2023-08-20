@@ -24,19 +24,28 @@ The HC-SCR04+ will be placed in the well iteself
 
 # List of materials
 
-- 1 x ESP32 Wroom : 
+** all links are affiliated, feel free to find it by your side if you don't want to use the following links **
+
 - 1 x Solar panel 6V :
+- 1 x TP4056 USB-C :
 - 1 x Li-On battery 18650 :
+- 1 x MCP1700-3302E : 
+- 1 x 100nF capacitor :
+- 1 x 100µF capacitor :
+- 1 x 27k ohm resistor :
+- 1 x 100k ohm resistor : 
+- 1 x ESP32 Wroom : 
 - 1 x HC-SR04+ ("plus" is important to have 3.3V version) : 
-- X x Resistors XX : 
 
-Total cost arround : 10$
+Total cost arround : XX $
+
+Add more if you want to have solder plate and ready to use box
 
 
-# Electrical schema
-
+# Electrical plan
 
 <img src="./images/elecschema.png" width="800">
+
 
 # Assembly
 
