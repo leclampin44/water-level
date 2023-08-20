@@ -1,15 +1,25 @@
 # Water Level  - Solar Powered - ESP32 base
 
 This project is about a well's water level solar powered.
+
 The main point here is to have an autonomous off grid system due to the outdoor location.
-The battery capacity will be monitored and a deep sleep state is used to prevent the discharge.
+
+The battery capacity will be monitored and a deep sleep state is used to prevent the full discharge.
+
+I'm using an HC-SR04+ ultrasound system to get the distance between the water and the sensor.
 
 
 # Macro view
 
-This is a macro view of the project
+This is a macro view of the project.
 
-<img src="./images/macrodiagram.png" width="800">
+Solar panel will be placed on the roof. 
+
+The esp32, some electronics and battery will be placed just under the roof in a box.
+
+The HC-SCR04+ will be placed in the well iteself
+
+<img src="./images/macrodiagram.png" width="600">
 
 
 # List of materials
