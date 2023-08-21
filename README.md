@@ -28,27 +28,25 @@ The HC-SCR04+ will be placed in the well iteself
 
 Main assembly :
 
-- 1 x Solar panel 6V :
-- 1 x TP4056 USB-C :
-- 1 x Li-On battery 18650 :
-- 1 x 18650 battery holder : 
-- 1 x MCP1700-3302E : 
-- 1 x 100nF capacitor :
-- 1 x 100µF capacitor :
-- 1 x 27k ohm resistor :
-- 1 x 100k ohm resistor : 
-- 1 x ESP32 Wroom : 
-- 1 x HC-SR04+ ("plus" is important to have 3.3V version) :
-  *you can also use RCWL-1601 instead* :  
-
-Total cost arround : XX $
+- 1 x Solar panel 6V : https://s.click.aliexpress.com/e/_DezvD27
+- 1 x TP4056 USB-C : https://s.click.aliexpress.com/e/_Dko0C5N
+- 1 x Li-On battery 18650 : https://s.click.aliexpress.com/e/_DlPwYRp
+- 1 x 18650 battery holder : https://s.click.aliexpress.com/e/_DBchngR
+- 1 x MCP1700-3302E : https://s.click.aliexpress.com/e/_DCsN7Wx
+- 1 x 100nF capacitor : https://s.click.aliexpress.com/e/_DBgmV2j
+- 1 x 100µF capacitor : https://s.click.aliexpress.com/e/_Dlit8gF
+- 1 x 27k ohm resistor : https://s.click.aliexpress.com/e/_DEmGfjN
+- 1 x 100k ohm resistor : https://s.click.aliexpress.com/e/_DEmGfjN
+- 1 x ESP32 Wroom : https://s.click.aliexpress.com/e/_DlSmJxN
+- 1 x HC-SR04+ ("plus" is important to have 3.3V version) : https://s.click.aliexpress.com/e/_Dcf8nF9
+- *you can also use RCWL-1601 instead* : https://s.click.aliexpress.com/e/_DdKQkZV 
 
 Optional : 
 
-- 1 x electrician box :
-- 1 x long distance cable to connect the HC-SR04+ :
-- 1 x soldering board :
-- 1 x external coaxial antenna : 
+- 1 x electrician box : https://s.click.aliexpress.com/e/_DFK50aP
+- 1 x long distance cable to connect the HC-SR04+ : https://s.click.aliexpress.com/e/_DCSRG5d
+- 1 x soldering board : https://s.click.aliexpress.com/e/_DDgjZ0B
+- 1 x external coaxial antenna : https://s.click.aliexpress.com/e/_DkJyf2F
 
 Add more if you want to have solder plate and ready to use box
 
